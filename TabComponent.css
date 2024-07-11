@@ -1,0 +1,238 @@
+.maindiv h1 {
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: 0em;
+  padding-top: 15px;
+  font-variation-settings: "opsz" auto;
+  color: #000000;
+  font-size: 36px;
+}
+
+.tab-container {
+  margin-left: 21px;
+  margin-top: 22px;
+  display: flex;
+  align-items: flex-start;
+  font-family: Arial, sans-serif;
+}
+
+.profile {
+  position: relative;
+  display: flex;
+  width: 300px;
+  height: 430px;
+  border-radius: 16px;
+  flex-direction: column;
+  margin-left: 22px;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+p {
+  padding-top: 4px;
+  padding-left: 8px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: 0em;;
+}
+
+.profile .name{
+  font-family: Abhaya Libre;
+  font-weight: normal;
+  line-height: 268.75%;
+  letter-spacing: 0em;
+  color: #000000;
+  font-size: 36px;
+}
+.profile .enroll{
+  top: 660px;
+  width: 215px;
+  height: 16px;
+  opacity: 1;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: 0em;
+  font-variation-settings: "opsz" auto;
+  font-feature-settings: "kern" on;
+  color: #696969;
+  left: 201px;
+}
+.edit-img{
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 14px;
+  height: 14px;
+}
+.profile-img {
+  box-shadow: 13px 26px 25px 0px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  height: 280px;
+  border-radius: 13px;
+  opacity: 1;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  width: 94%;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: 0em;
+  color: #222222;
+  font-family: Inter;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  border-bottom: 3px solid transparent;
+}
+
+.tab.active {
+  border-bottom: 3px solid #673ab7;
+  font-weight: bold;
+}
+
+.content-wrapper {
+  width: 80%;
+}
+
+.content-container {
+  padding-left: 14px;
+  padding-bottom: 17px;
+  position: relative;
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding-top: 15px;
+  background: #EDEDED;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.bodysection{
+  width: 109%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1px;
+}
+
+.style {
+  color: #8E8E8E;
+}
+.company{
+  width: 97%;
+  height: 58px;
+  margin-left: 2px;
+  margin-right: 24px;
+  margin-top: 10px;
+  margin-bottom: 14px;
+  padding: 5px;
+  border-radius: 14px;
+  background-color: #DEDEDE;
+}
+ .form-group {
+  width: 80%;
+  height: 58px;
+  margin-left: 2px;
+  margin-right: 24px;
+  margin-top: 10px;
+  margin-bottom: 14px;
+  padding: 5px;
+  border-radius: 14px;
+  background-color: #DEDEDE;
+
+} 
+
+.address {
+  grid-column: 1/3;
+  padding-top: 5px;
+  padding-left: 7px;
+  margin-top: 5px;
+  width: 90%;
+  height: 58px;
+  border-radius: 14px;
+  background-color: #DEDEDE;
+}
+
+.bodysection .personal11 {
+  grid-column: 1/3;
+  width: 90%;
+  height: 58px;
+  border-radius: 14px;
+  margin-bottom: 5px;
+  background-color: #DEDEDE;
+  padding: 5px;
+}
+
+.form-group label {
+  text-align: left;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group label .company {
+  width: 100vw;
+}
+
+.bodysection .per {
+  width: 100%;
+  padding: 8px;
+  background-color: #f9f9f9;
+  border-radius: 14px;
+}
+
+.form-group input {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 14px;
+}
+
+.employment-section,
+.achievement-section {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.employment-section h3 {
+  margin-left: 7px;
+  margin-bottom: 7px;
+  font-size: 21px;
+  font-weight: normal;
+  line-height: 20px;
+  letter-spacing: 0em;
+  font-variation-settings: "opsz" auto;
+  font-feature-settings: "kern" on;
+  color: #000000;
+  font-family: Source Sans Pro;
+}
+
+.achievement-section h3 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-row .form-group {
+  width: 48%;
+}
